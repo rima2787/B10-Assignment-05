@@ -12,16 +12,16 @@
 </head>
 
 <body>
-    <header class="nav-container sm:sticky">
+    <header class="nav-container sm:sticky top-0 z-50">
         <nav class="sticky">
-            <div class="navbar bg-base-300 flex justify-around">
-                <a href="./blog.html" id="btn-blog" class="btn bg-green-300 btn-ghost text-xl">Blog</a>
+            <div class="navbar bg-base-300 flex flex-col sm:flex-row justify-around items-center p-2">
+                <a href="./blog.html" id="btn-blog" class="btn bg-green-300 btn-ghost text-xl mb-4 sm:mb-2">Blog</a>
                 <div>
                     <img src="./assets/logo.png" alt="">
                     <h3>Donate Bangladesh</h3>
                 </div>
-                <div class="stats">
-                    <div class="stat flex justify-center">
+                <div class="stats mt-3 sm:mt-0">
+                    <div class="stat flex items-center space-x-2">
                         <img src="./assets/coin.png" alt="">
                         <div class="stat-value"><span id="total-balance">55000</span> BDT</div>
                     </div>
@@ -29,9 +29,9 @@
             </div>
             <div class="flex justify-center mt-8 gap-3">
                 <button id="show-donation-btn"
-                    class="btn rounded-l-md focus:outline-none transition-colors duration-200 text-black font-bold text-2xl">Donation</button>
+                    class="btn rounded-l-md focus:outline-none transition-colors duration-200 text-black font-bold text-lg sm:sm:text-2xl px-6 py-2">Donation</button>
                 <button id="show-history-btn"
-                    class="btn rounded-l-md focus:outline-none transition-colors duration-200 text-black font-bold text-2xl">History</button>
+                    class="btn rounded-l-md focus:outline-none transition-colors duration-200 text-black font-bold text-lg sm:sm:text-2xl px-6 py-2">History</button>
             </div>
         </nav>
 

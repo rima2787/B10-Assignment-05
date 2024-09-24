@@ -26,13 +26,13 @@ document.getElementById('donate-now-btn1').addEventListener('click', function (e
 
         // add to history
         const div = document.createElement('div');
-        div.className = "bg-white text-black font-semibold input input-bordered input-lg text-start h-24 w-1/2 m-auto mt-4 p-2";
+        div.className = "bg-white text-black font-semibold border rounded-lg shadow-md text-start p-4 w-full sm:w-3/4 lg:w-1/2 m-auto mt-4"; // Responsive widths for mobile and PC
         div.innerHTML = `
-           <h2>${newDonation} Taka is Donated for famine-2024 at Feni, Bangladesh </h2>
-           Date:${new Date().toLocaleString()};
+              <h2 class="text-lg sm:text-xl lg:text-2xl">${newDonation} Taka is Donated for famine-2024 at Feni, Bangladesh</h2>
+              <p class="text-sm sm:text-base lg:text-lg">Date: ${new Date().toLocaleString()}</p>`;
 
-        `
         document.getElementById('history-details').prepend(div);
+
 
         document.getElementById('input-donate1').value = '';
 
@@ -69,13 +69,13 @@ document.getElementById('donate-now-btn2').addEventListener('click', function (e
 
         // add to history
         const div = document.createElement('div');
-        div.className = "bg-white text-black font-semibold input input-bordered input-lg text-start h-24 w-1/2 m-auto mt-4 p-2";
+        div.className = "bg-white text-black font-semibold border rounded-lg shadow-md text-start p-4 w-full sm:w-3/4 lg:w-1/2 m-auto mt-4"; // Responsive widths for mobile and PC
         div.innerHTML = `
-           <h2>${newDonation} Taka is Donated for Flood Relief in Feni. </h2>
-           Date:${new Date().toLocaleString()};
+           <h2 class="text-lg sm:text-xl lg:text-2xl">${newDonation} Taka is Donated for Flood Relief in Feni, Bangladesh</h2>
+           <p class="text-sm sm:text-base lg:text-lg">Date: ${new Date().toLocaleString()}</p>`;
 
-        `
         document.getElementById('history-details').prepend(div);
+
 
         document.getElementById('input-donate2').value = '';
 
@@ -116,13 +116,13 @@ document.getElementById('donate-now-btn3').addEventListener('click', function (e
 
         // add to history
         const div = document.createElement('div');
-        div.className = "bg-white text-black font-semibold input input-bordered input-lg text-start h-24 w-1/2 m-auto mt-4 p-2";
+        div.className = "bg-white text-black font-semibold border rounded-lg shadow-md text-start p-4 w-full sm:w-3/4 lg:w-1/2 m-auto mt-4"; // Responsive widths for mobile and PC
         div.innerHTML = `
-           <h2>${newDonation} Taka is Donated for Aid for Injured in the Quota Movement </h2>
-           Date:${new Date().toLocaleString()};
-
-        `
+           <h2 class="text-lg sm:text-xl lg:text-2xl">${newDonation} Taka is Donated for Aid for Injured in Quota Movement</h2>
+           <p class="text-sm sm:text-base lg:text-lg">Date: ${new Date().toLocaleString()}</p>
+        `;
         document.getElementById('history-details').prepend(div);
+        
 
         document.getElementById('input-donate3').value = '';
 
