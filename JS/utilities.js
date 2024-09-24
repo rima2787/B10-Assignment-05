@@ -19,3 +19,21 @@ function showSectionById(id){
     document.getElementById(id).classList.remove('hidden');
 }
 
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    const modal = document.getElementById("my_modal_5");
+    const donateButton = document.getElementById("donate-now-btn1");
+
+    // Show the modal when the button is clicked
+    donateButton.onclick = function() {
+        modal.showModal();
+    };
+    
+    // Listen for the Escape key to close the modal
+    window.addEventListener("keydown", function(event) {
+        if (event.key === "Enter") {
+            modal.close(); // Close the modal
+        }
+    });
+});
