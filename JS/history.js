@@ -41,16 +41,3 @@ donationBtn.addEventListener('click', function () {
 
 
 
-
-//     // const div = document.createElement('div');
-//     // div.innerHTML = `
-//     //    <h2>${totalBalanceSector} Taka is Donated for Aid for Injured in the Quota Movement </h2>
-//     //    Date:${new Date().toLocaleString()};
-
-
-
-// const p = document.createElement('p');
-// p.innerText = `${newDonation} Taka is Donated for flood. `
-// document.getElementById('history-details').appendChild(p);
-
-
