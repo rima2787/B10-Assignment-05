@@ -22,6 +22,8 @@ document.getElementById('donate-now-btn1').addEventListener('click', function (e
         document.getElementById('total-balance').innerText = totalRemainingBalance;
         document.getElementById('total-balance-noakhali').innerText = totalBalanceSectorSum;
 
+
+
         // add to history
         const div = document.createElement('div');
         div.className = "bg-white text-black font-semibold input input-bordered input-lg text-start h-24 w-1/2 m-auto mt-4 p-2";
@@ -31,6 +33,8 @@ document.getElementById('donate-now-btn1').addEventListener('click', function (e
 
         `
         document.getElementById('history-details').prepend(div);
+
+        document.getElementById('input-donate1').value = '';
 
     }
     else {
@@ -72,6 +76,8 @@ document.getElementById('donate-now-btn2').addEventListener('click', function (e
 
         `
         document.getElementById('history-details').prepend(div);
+
+        document.getElementById('input-donate2').value = '';
 
     }
     else {
@@ -117,6 +123,8 @@ document.getElementById('donate-now-btn3').addEventListener('click', function (e
 
         `
         document.getElementById('history-details').prepend(div);
+
+        document.getElementById('input-donate3').value = '';
 
     }
     else {
