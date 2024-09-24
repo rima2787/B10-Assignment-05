@@ -23,13 +23,15 @@
                 <div class="stats">
                     <div class="stat flex justify-center">
                         <img src="./assets/coin.png" alt="">
-                        <div id="total-balance" class="stat-value">5500 BDT</div>
+                        <div id="total-balance" class="stat-value">55000 BDT</div>
                     </div>
                 </div>
             </div>
             <div class="flex justify-center mt-8 gap-3">
-                <button id="show-donation-btn" class="btn bg-base-300 hover:bg-green-300 btn-ghost text-xl">Donation</button>
-                <button id="show-history-btn" class="btn bg-base-300 hover:bg-green-300 btn-ghost text-xl">History</button>
+                <button id="show-donation-btn"
+                    class="btn rounded-l-md focus:outline-none transition-colors duration-200 text-black font-bold text-2xl bg-green-300">Donation</button>
+                <button id="show-history-btn"
+                    class="btn rounded-l-md focus:outline-none transition-colors duration-200 text-black font-bold text-2xl bg-green-300">History</button>
             </div>
         </nav>
 
@@ -55,10 +57,10 @@
                         or small, makes difference. Please join us in supporting the relief efforts and making a
                         positive
                         impact on the lives of those in need.</p>
-                    <input id="input-donate" type="text" placeholder="Write Donation Amount"
+                    <input id="input-donate1" type="text" placeholder="Write Donation Amount"
                         class="input input-bordered input-lg max-w-full" />
                     <div class="card-actions justify-center mt-5">
-                        <button id="donate-now-btn" onclick="my_modal_5.showModal()"
+                        <button id="donate-now-btn1" onclick="my_modal_5.showModal()"
                             class="btn bg-green-300 w-full">Donate Now</button>
 
                         <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
@@ -163,18 +165,14 @@
                 </div>
             </div>
         </div>
-        <div id="history-details" class="hidden">
-
-
+        <div id="history-details" class="text-xl text-center">
+           
+        
 
         </div>
 
-
-
-
     </main>
 
-    <!-- <script src="./blog.html"></script> -->
     <script src="./JS/donation.js"></script>
     <script src="./JS/history.js"></script>
     <script src="./JS/utilities.js"></script>
