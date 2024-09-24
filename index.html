@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header class="nav-container">
+    <header class="nav-container sm:sticky">
         <nav class="sticky">
             <div class="navbar bg-base-300 flex justify-around">
                 <a href="./blog.html" id="btn-blog" class="btn bg-green-300 btn-ghost text-xl">Blog</a>
@@ -29,15 +29,15 @@
             </div>
             <div class="flex justify-center mt-8 gap-3">
                 <button id="show-donation-btn"
-                    class="btn rounded-l-md focus:outline-none transition-colors duration-200 text-black font-bold text-2xl bg-green-300">Donation</button>
+                    class="btn rounded-l-md focus:outline-none transition-colors duration-200 text-black font-bold text-2xl">Donation</button>
                 <button id="show-history-btn"
-                    class="btn rounded-l-md focus:outline-none transition-colors duration-200 text-black font-bold text-2xl bg-green-300">History</button>
+                    class="btn rounded-l-md focus:outline-none transition-colors duration-200 text-black font-bold text-2xl">History</button>
             </div>
         </nav>
 
     </header>
     <main>
-        <div id="donation-details">
+        <div id="donation-details sm:justify-center">
             <div class="card lg:card-side bg-base-100 shadow-xl m-6 p-6 ">
                 <figure class="w-1/2">
                     <img src="./assets/noakhali.png" alt="Album" />
@@ -49,7 +49,7 @@
                             <div id="total-balance-noakhali" class="stat-value">540 BDT</div>
                         </div>
                     </div>
-                    <h2 class="card-title">Donate for Flood at Noakhali, Bangladesh</h2>
+                    <h2 class="card-title mt-4">Donate for Flood at Noakhali, Bangladesh</h2>
                     <p> The recent floods in Noakhali have caused significant damage to homes infrastructure. Your
                         donation
                         will help provide essential supplies and to those affected by this disaster. Every contribution,
@@ -58,7 +58,7 @@
                         positive
                         impact on the lives of those in need.</p>
                     <input id="input-donate1" type="text" placeholder="Write Donation Amount"
-                        class="input input-bordered input-lg max-w-full" />
+                        class="input input-bordered input-lg max-w-full mt-4" />
                     <div class="card-actions justify-center mt-5">
                         <button id="donate-now-btn1" onclick="my_modal_5.showModal()"
                             class="btn bg-green-300 w-full">Donate Now</button>
@@ -91,7 +91,7 @@
                             <div id="total-balance-feni" class="stat-value">70 BDT</div>
                         </div>
                     </div>
-                    <h2 class="card-title">Donate for Flood Relief in Feni,Bangladesh</h2>
+                    <h2 class="card-title mt-4">Donate for Flood Relief in Feni,Bangladesh</h2>
                     <p> The recent floods in Feni have devastated local communities, leading to severe disruption and
                         loss.
                         Your generous donation will help provide immediate aid, including food, clean water, and medical
@@ -99,7 +99,7 @@
                         rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real
                         difference. Please consider donating today to assist those in urgent need.</p>
                     <input id="input-donate2" type="text" placeholder="Write Donation Amount"
-                        class="input input-bordered input-lg max-w-full" />
+                        class="input input-bordered input-lg max-w-full mt-4" />
                     <div class="card-actions justify-center mt-5">
                         <button id="donate-now-btn2" onclick="my_modal_5.showModal()"
                             class="btn bg-green-300 w-full">Donate Now</button>
@@ -121,7 +121,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card lg:card-side bg-base-100 shadow-xl m-6 p-6">
+            <div class="card lg:card-side sm:card-center bg-base-100 shadow-xl m-6 p-6">
                 <figure class="w-1/2">
                     <img src="./assets/quota-protest.png" alt="Album" />
                 </figure>
@@ -132,7 +132,7 @@
                             <div id="total-balance-injured-quota" class="stat-value">230 BDT</div>
                         </div>
                     </div>
-                    <h2 class="card-title">Aid for Injured in the Quota Movement</h2>
+                    <h2 class="card-title mt-4">Aid for Injured in the Quota Movement</h2>
                     <p>The recent Quota movement has resulted in numerous injuries and significant hardship for many
                         individuals. Your support is crucial in providing medical assistance, rehabilitation, and
                         necessary
@@ -142,7 +142,7 @@
                         alleviating their suffering and aiding in their recovery. Please consider making a donation to
                         support these brave individuals in their time of need.</p>
                     <input id="input-donate3" type="text" placeholder="Write Donation Amount"
-                        class="input input-bordered input-lg max-w-full" />
+                        class="input input-bordered input-lg max-w-full mt-4" />
                     <div class="card-actions justify-center mt-5">
                         <button id="donate-now-btn3" onclick="my_modal_5.showModal()"
                             class="btn bg-green-300 w-full">Donate Now</button>
@@ -166,7 +166,7 @@
             </div>
         </div>
         <div id="history-details" class="text-xl text-center">
-           
+            
         
 
         </div>
